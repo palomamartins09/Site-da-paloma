@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&' display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+    :root {
+        --laranja-claro: #FF862A;
+        --alto-contraste-fundo: #000000;
+        --alto-contraste-texto: #ffffff;
+        --alto-contraste-link: #ffd700;
+    }
+
+    body {
+        font-size: 1rem;
+        font-family: 'Montserrat';
+    }
+
+    header {
+        background: #ffffff;
+    }
+
+    section{
+        padding-bottom: 5rem;
+    }
+
+    .nav-link {
+        color: #CB6D43;
+        font-weight: 600;
+    }
+
+    .inico-fundo {
+    \*aula 3 *\
+        background-image: url('img')
+        background-color-site: cover;
+        background-position: right;
+        border-radius: 80px;
+        width: 100%;
+        height: 60;
+        padding: 40;
+        margin: 0 auto;
+    }
+
+
+    \* posionamento para a iamgem á direita *\
+    .img-inicio{
+        position: absolute;
+        right: 0;
+        top: 18rem;
+        width: 45rem;
+        height: auto;
+    }
+
+    .esquerda-conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .botao-inicio{
+        background-color: (--verde-claro);
+        border-radius: 30px;
+        border: none;
+        width: 14em;
+        height: 3em;
+        align-content: center;
+    }
+
+    .display-4{
+        text-shadow: -Spx spx var(--verde-claro);
+    }
+
+    #Bicho-Preguiça {
+     position: relative;
+     padding-top: 5rem;
+     margin-top: 3rem;
+     margin-botton: 3rem;
+     background: ('') top right no-repeat;
+      url('') bottom left no-repeat;
+      background-site: 180px 180px;
+    }
+
+    #bicho-preguica.container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    h2 {
+        font-family: 'Lemon, serif';
+        font-size: 2.5em;
+        font-style: normal;
+        color: (--laranja-claro);
+    }
+
+    #galeria {
+        background-color: aqua;
+    }
+
+    .fundo-galeria {
+        background-image: url('img/Digitalizado_20250824-1615_page-0001.jpg');
+        background-size: cover;
+        padding: 4rem;
+    }
+
+    #contato {
+        background-image: url('img/IMG-20250824-WA0020.jpg');
+        background-size: cover;
+        padding: 4rem 0;
+        \* Espaçameno interno para a seção de contato *\
+    }
+    
+    .formulario {
+        background-color: #FF862A;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1);
+        \* Sombra suave para destacar o formulário *\
+        font-weight: bold;
+    }
+
+    .formualrio button {
+        background-color: aqua;
+        border: none;
+        font-weight: bold;
+    }
+
+    .form-control {
+        background-color: #FF862A;
+    }
+
+    .menu-acessiblilidade {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rotacao-botao{
+        transform: rotate (-90deg);
+        transform-origin: right center;
+    }
+
+    .opcoes-acessiblilidade {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opcoes-acessiblilidade button{
+        margin-bottom: 5px;
+    }
+
+    .apresenta-lista{
+        background-color: var(--alto-contraste-fundo);
+        color: var(--alto-contraste-texto);
+    }
+
+    .alto-contraste header,
+    .alto-contraste footer,
+    .alto-contraste .formulario {
+        background-color: var(--alto-contraste-fundo);
+        color: var(--alto-contraste-fundo)
+    }
+
+    .alto-contraste .nav-link {
+        color: var(--alto-contraste-link);
+    }
+
+    .alto-contraste .botao-inicio,
+    .alto-contraste .formulario button,
+    .alto-contraste .btn-primary {
+        background-color:  var(--alto-contraste-link);
+        color: var(--alto-contraste-fundo)
+    }
+
+    .alto-contraste #Bicho-Preguiça {
+        background: none;
+    }
+
+    .alto-contraste #galeria {
+        background-color: var(--alto-contraste-fundo);
+    }
+    .alto-contraste .fundo-galeria {
+         background: none;
+    }
